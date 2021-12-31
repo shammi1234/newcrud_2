@@ -1,0 +1,54 @@
+
+<html>
+
+	<head>
+		<link rel="stylesheet" href="newcrud.css">
+		<title> JavaScript crud operation</title>
+	</head>
+	
+	<body>
+		<h1>Crud</h1>
+		<hr>
+		</hr>
+		<div class="employee-form">
+			<form id="myForm">
+				<div>
+					<label> Fullname:</label>
+					<input type="text" placeholder="enter name" id="fullname"><span id="msg"></span>
+				</div>
+				<br>
+				  <!-- <div>
+					<label> Email:</label>
+					<input type="text" placeholder=" enter mail" id="email"><span id='msg2'></span>
+				</div> -->
+				<br> 
+			   
+				<div> 
+					<input  type="submit" onclick="manageData()"> </input>
+					 <button onclick="updateData()">update </button> 
+				</div>
+			</form>
+		</div>
+		<br>
+		<div class="employee-table" >
+			<table class="list" id="employeeList" >
+				<thead>
+					<tr>
+						<th>sr. No.</th>
+						<th>Name</th>
+						<th> Action</th>
+						<!-- <th>Email</th>
+						<th>City</th> -->
+	
+					</tr>
+				</thead>
+				<tbody id="root">
+	
+				</tbody>
+			</table>
+		</div>
+	</body>
+	
+	<script src='newcrud.js'></script>
+	
+	</html>

@@ -1,0 +1,29 @@
+.employee-form{
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    margin:auto;
+    width:60%;
+    background-color: powderblue;
+   }
+   .employee-table{
+       text-align: center;
+       border-style:double;
+       padding: 10px;
+       margin:auto;
+       width:60%;
+   }
+   .td, th {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+   }
+   .employees-table {
+       border-style: solid;
+      
+       padding: 20px;
+       
+       margin: auto;
+       width: 70%;
+     
+   }
